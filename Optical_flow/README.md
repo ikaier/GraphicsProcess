@@ -1,14 +1,17 @@
-Code for Q1 is in compute_LK_optical_flow.m
+# LK_Optical_Flow
 
-You can set parameters in the file:
+Open compute_LK_optical_flow.m
 
-smooth factor for smoothing frames: sigma
+Set parameters:
 
-smooth factor for smoothing RHS: sigma_1d
+- smooth factor for smoothing frames: sigma
 
-Window size: (2w+1)*(2w+1) ex: window size =9\*9 if w =4
+- smooth factor for smoothing RHS: sigma_1d
+
+- Window size: (2w+1)*(2w+1) ex: window size =9\*9 if w =4
 
 
 
-To run this function, you can use test_flow.m to run it. Test_flow will also display and save the motion field overlaying every frame you loaded.
+ Test_flow.m can be used to display and save the motion field overlaying for a series of frames. You can choose frames from "Backyard", "Basketball", "Grove", "Mequaon", "Schefflera" ,or your can use your own frames by putting them in a new folder in this directory.
 
+![optiFlow](optiFlow.gif)
